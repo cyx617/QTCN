@@ -1,6 +1,4 @@
-# QTCN
 
-Repo for QHack2023 Hackathon
 
 # Setup
 
