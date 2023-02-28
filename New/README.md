@@ -1,6 +1,4 @@
-# QTCN
 
-Repo for QHack2023 Hackathon
 
 # Setup
 
@@ -9,7 +7,7 @@ The following command will install the packages according to the configuration f
 ```
 $ pip install -r requirements.txt
 ```
-
+(**Note that this code requires the PennyLane Version 0.24.0**)
 # Model Training and Testing
 
 The following command will train the model:
@@ -24,4 +22,4 @@ The following command will evaluate the model:
 ```
 $ python evaluation.py
 ```
-We have already placed the saved model files in the folder ```checkpoints```. You can directly run the above code for evaluation if you do not want to spend time in training the models.
+
