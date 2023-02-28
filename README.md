@@ -13,4 +13,4 @@ TCN-based models with small kernel size (e.g. 2, 3) are usually adopted for time
 
 
 ## Folder Information
-THe folder ```Old``` contains the code for building,training and testing QTCN models. In this code, the quantum dilated convolutions are implemented by for loops. THe folder ```New``` contains the code which is optimized by replacing for loops and leveraging quantum parameter broadcasting. THe folder ```presentation``` contains the presentation file.
+THe folder ```Old``` contains the code for building,training and testing QTCN models. In this code, the quantum dilated convolutions are implemented by for loops. THe folder ```New``` contains the code which is optimized by replacing for loops and leveraging quantum parameter broadcasting. The folder ```presentation``` contains the presentation file.
