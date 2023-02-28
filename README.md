@@ -1,8 +1,8 @@
-# QTCN
+# Quantum Temporal Convolutional Networks and Their Application to Weather Forecasting
 
 Repo for QHack2023 Hackathon
 
-# Project Description
+## Project Description
 
 Weather forecasting becomes more and more crucial for national economy and people’s daily life. There is also an increasing demand for information on weather changes in various industrial areas (e.g. wind power generation). However, weather forecasting is a very challenging task due to the complexity of atmospheric system and noisy weather data. To tackle this problem, we propose in this project a novel quantum machine learning model called quantum temporal convolutional network (QTCN), which is inspired by the classical temporal convolutional network (TCN) [1]. The core element of our QTCN model is the quantum dilated convolution (QDC) [2] which combines the concept of dilated convolution with variational quantum circuits. Compared to the standard quantum convolution with the same kernel size, QDC is able to capture a larger receptive field without introducing more learnable parameters, and generally results in a feature map of a smaller size, reducing the number of quantum circuit executions. In addition, we also propose a quantum Squeeze-and-Excitation (QSE) module to further improve the model performance. Based on channel-wise attention, the QSE module can help our QTCN model focus on more important channels. We perform experiments using one internal desensitized dataset which includes 1,000 time series of five meteorological indicators observed from 2018-01-01 to 2020-12-31. We demonstrate our model can achieve promising performance in terms of the pre-defined accuracy (see our [presentation](https://github.com/cyx617/QTCN/tree/main/presentation)). In particular, we find that the residual blocks, which are adopted by most of state-of-the-art deep learning models, are also essential for QML models as we observe a huge performance gap between our models with and without this architecture. Moreover, we observe a faster model convergence when training the model with the device of “lightning.qubit”simulator than “default.qubit”simulator. To our best knowledge, the model proposed in this project is the first quantum version of TCN models and it has enormous potential to handle a wide range of time series problems.
 
@@ -10,3 +10,7 @@ TCN-based models with small kernel size (e.g. 2, 3) are usually adopted for time
 
 [1] S. Bai, J. Z. Kolter, and V. Koltun, “An empirical evaluation of generic convolutional and recurrent networks for sequence modeling,”arXiv preprint arXiv:1803.01271, 2018 \
 [2] Y. Chen, “Quantum dilated convolutional neural network,”IEEE Access, 2022
+
+
+## Folder Information
+THe folder ```Old``` contains the code for building,training and testing QTCN models. In this code, the quantum dilated convolutions are implemented by for loops. THe folder ```New``` contains the code which is optimized by replacing for loops and leveraging quantum parameter broadcasting. THe folder ```presentation``` contains the presentation file.
