@@ -7,7 +7,7 @@ The following command will install the packages according to the configuration f
 ```
 $ pip install -r requirements.txt
 ```
-(**Note that this code requires the PennyLane Version 0.24.0**)
+(**Note that this code requires the PennyLane Version 0.24.0 and Pennylane-lightning Version 0.24.0**)
 # Model Training and Testing
 
 The following command will train the model:
