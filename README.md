@@ -1,6 +1,6 @@
 # Quantum Temporal Convolutional Networks and Their Application to Weather Forecasting
 
-Repo for QHack2023 Hackathon
+
 
 ## Project Description
 
