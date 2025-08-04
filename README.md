@@ -15,3 +15,20 @@ TCN-based models with small kernel size (e.g. 2, 3) are usually adopted for time
 
 ## Folder Information
 THe folder ```Old``` contains the code for building,training and testing QTCN models. In this code, the quantum dilated convolutions are implemented by for loops. THe folder ```New``` contains the code which is optimized by replacing for loops and leveraging quantum parameter broadcasting. The folder ```presentation``` contains the presentation file. All the code work for ```Python 3.8``` and ```Python 3.9```.
+
+## Citation
+
+If you use this software, please cite it using the following DOI:
+
+**DOI:** [10.5281/zenodo.16734501](https://doi.org/10.5281/zenodo.16734501)
+
+### BibTeX
+```bibtex
+@software{QTCN_2022,
+  author = {Yixiong Chen},
+  title = {Quantum Temporal Convolutional Networks and Their Application to Weather Forecasting},
+  version = {v1.0.0},
+  year = {2022},
+  doi = {10.5281/zenodo.16734501},
+  url = {https://doi.org/10.5281/zenodo.16734501}
+}
