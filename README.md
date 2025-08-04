@@ -24,11 +24,11 @@ If you use this software, please cite it using the following DOI:
 
 ### BibTeX
 ```bibtex
-@software{QTCN_2022,
+@software{QTCN_2023,
   author = {Yixiong Chen},
   title = {Quantum Temporal Convolutional Networks and Their Application to Weather Forecasting},
   version = {v1.0.0},
-  year = {2022},
+  year = {2023},
   doi = {10.5281/zenodo.16734501},
   url = {https://doi.org/10.5281/zenodo.16734501}
 }
